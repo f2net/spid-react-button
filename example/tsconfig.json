@@ -1,12 +1,9 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "module": "esnext",
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "lib": ["dom", "esnext"],
+    "moduleResolution": "nodenext",
     "jsx": "react",
     "sourceMap": true,
     "declaration": true,
@@ -29,11 +26,6 @@
     "isolatedModules": true,
     "noEmit": true
   },
-  "include": [
-    "src"
-  ],
-  "exclude": [
-    "node_modules",
-    "build"
-  ]
+  "include": ["src"],
+  "exclude": ["node_modules", "build"]
 }
