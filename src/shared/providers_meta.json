@@ -1,14 +1,14 @@
 {
   "Aruba ID": "https://loginspid.aruba.it",
+  "Etna ID": "https://id.eht.eu",
   "Infocert": "https://identity.infocert.it",
+  "Info Camere ID": "https://loginspid.infocamere.it",
+  "Intesi ID": "https://spid.intesigroup.com",
   "Lepida ID": "https://id.lepida.it/idp/shibboleth",
   "Namirial ID": "https://idp.namirialtsp.com/idp",
   "Poste ID": "https://posteid.poste.it",
+  "Register ID": "https://spid.register.it",
   "Sielte": "https://identity.sieltecloud.it",
-  "SPIDItalia Register.it": "https://spid.register.it",
   "Team System ID": "https://spid.teamsystem.com/idp",
-  "Tim ID": "https://login.id.tim.it/affwebservices/public/saml2sso",
-  "Etna ID": "https://id.eht.eu",
-  "Info Camere ID": "https://loginspid.infocamere.it",
-  "Intesi ID": "https://spid.intesigroup.com"
+  "Tim ID": "https://login.id.tim.it/affwebservices/public/saml2sso"
 }

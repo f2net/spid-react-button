@@ -21,17 +21,17 @@ import type { RegisteredProviderRecord } from './types';
  */
 const images = [
   ArubaSVGUrl,
+  EtnaSVGUrl,
   InfocertSVGUrl,
+  InfoCamereSVGUrl,
+  IntesiSVGUrl,
   LepidaSVGUrl,
   NamirialSVGUrl,
   PosteSVGUrl,
-  SielteSVGUrl,
   RegisterItSVGUrl,
+  SielteSVGUrl,
   TeamSystemSVGUrl,
-  TimSVGUrl,
-  EtnaSVGUrl,
-  InfoCamereSVGUrl,
-  IntesiSVGUrl
+  TimSVGUrl
 ];
 
 export const providers: Readonly<RegisteredProviderRecord>[] = Object.entries(
