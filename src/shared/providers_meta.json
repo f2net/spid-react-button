@@ -1,8 +1,8 @@
 {
   "Aruba ID": "https://loginspid.aruba.it",
   "Etna ID": "https://id.eht.eu",
-  "Infocert": "https://identity.infocert.it",
   "Info Camere ID": "https://loginspid.infocamere.it",
+  "Infocert": "https://identity.infocert.it",
   "Intesi ID": "https://spid.intesigroup.com",
   "Lepida ID": "https://id.lepida.it/idp/shibboleth",
   "Namirial ID": "https://idp.namirialtsp.com/idp",

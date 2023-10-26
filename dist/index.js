@@ -44,8 +44,8 @@ var Sielte = "https://identity.sieltecloud.it";
 var providersList = {
 	"Aruba ID": "https://loginspid.aruba.it",
 	"Etna ID": "https://id.eht.eu",
-	Infocert: Infocert,
 	"Info Camere ID": "https://loginspid.infocamere.it",
+	Infocert: Infocert,
 	"Intesi ID": "https://spid.intesigroup.com",
 	"Lepida ID": "https://id.lepida.it/idp/shibboleth",
 	"Namirial ID": "https://idp.namirialtsp.com/idp",
@@ -56,7 +56,7 @@ var providersList = {
 	"Tim ID": "https://login.id.tim.it/affwebservices/public/saml2sso"
 };
 
-var images = [ArubaSVGUrl, EtnaSVGUrl, InfocertSVGUrl, InfoCamereSVGUrl, IntesiSVGUrl, LepidaSVGUrl, NamirialSVGUrl, PosteSVGUrl, RegisterItSVGUrl, SielteSVGUrl, TeamSystemSVGUrl, TimSVGUrl];
+var images = [ArubaSVGUrl, EtnaSVGUrl, InfoCamereSVGUrl, InfocertSVGUrl, IntesiSVGUrl, LepidaSVGUrl, NamirialSVGUrl, PosteSVGUrl, RegisterItSVGUrl, SielteSVGUrl, TeamSystemSVGUrl, TimSVGUrl];
 var providers = Object.entries(providersList).sort(function (_ref, _ref2) {
   var idA = _ref[0];
   var idB = _ref2[0];
@@ -536,7 +536,6 @@ var ProvidersModal = function ProvidersModal(_ref3) {
   }, i18n('scegli_provider_SPID')), React__default.createElement("div", {
     className: getDefinedClasses(['spid-idp-list'])
   }, providers.map(function (idp, i) {
-    console.log(idp, url);
     var isActive = isProviderActive(idp, supported, protocol, extraProviders);
 
     var _ref4 = visibility.type === possibleStates.ENTERING.type ? {
@@ -762,7 +761,6 @@ var ProvidersDropdown = function ProvidersDropdown(_ref) {
     className: styles$2.idpButtonMenu,
     "aria-label": i18n('scegli_provider_SPID')
   }, providers.map(function (idp, i) {
-    console.log(idp, url);
     var isActive = isProviderActive(idp, supported, protocol, extraProviders);
     var buttonClasses = styles$2.idpLogo + " " + (isActive ? '' : styles$2.disabled);
     return React__default.createElement("li", {

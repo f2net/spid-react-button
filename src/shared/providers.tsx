@@ -22,8 +22,8 @@ import type { RegisteredProviderRecord } from './types';
 const images = [
   ArubaSVGUrl,
   EtnaSVGUrl,
-  InfocertSVGUrl,
   InfoCamereSVGUrl,
+  InfocertSVGUrl,
   IntesiSVGUrl,
   LepidaSVGUrl,
   NamirialSVGUrl,
