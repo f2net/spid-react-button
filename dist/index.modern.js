@@ -43,7 +43,7 @@ var providersList = {
 	"Etna ID": "https://id.eht.eu",
 	"Info Camere ID": "https://loginspid.infocamere.it",
 	Infocert: Infocert,
-	"Intesi ID": "https://spid.intesigroup.com",
+	"Intesi ID": "https://idp.intesigroup.com",
 	"Lepida ID": "https://id.lepida.it/idp/shibboleth",
 	"Namirial ID": "https://idp.namirialtsp.com/idp",
 	"Poste ID": "https://posteid.poste.it",
